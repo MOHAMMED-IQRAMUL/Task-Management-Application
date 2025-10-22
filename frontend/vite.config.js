@@ -5,5 +5,6 @@ export default defineConfig({
   plugins: [react()],
   css: {
     postcss: './postcss.config.cjs'
-  }
+  },
+  base:'/Task-Management-Application/'
 })

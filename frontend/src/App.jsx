@@ -8,7 +8,7 @@ import ProtectedRoute from './components/ProtectedRoute'
 
 export default function App(){
   return (
-    <BrowserRouter>
+    <BrowserRouter  basename="/Task-Management-Application">
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/login" element={<Login />} />
