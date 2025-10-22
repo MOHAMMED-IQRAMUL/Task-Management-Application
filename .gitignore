@@ -1,0 +1,53 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment
+.env
+.env.*
+.env.local
+backend/.env
+frontend/.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Build output
+dist/
+build/
+.cache/
+.vite/
+out/
+coverage/
+
+# Prisma
+prisma/migrations/
+.prisma/
+
+# Frontend specific
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Backend specific
+backend/node_modules/
+backend/dist/
+
+# Misc
+*.seed.js
+*.local
+.DS_Store
